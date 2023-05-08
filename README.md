@@ -1,6 +1,7 @@
 ### Initial Observations: ###
 
  #### Unique Highlights: ####
+ - react hooks! yay!
  - react-router6+
  - react-query => like jquery? research & learn 2 use with the quickness!
  - vite instead of create-react-app 
