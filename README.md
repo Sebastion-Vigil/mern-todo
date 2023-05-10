@@ -31,3 +31,6 @@
    - Contrast Time Complexity to a speedomoter in a car; a speedometer is a set measure of a car's current speed,
    - whereas Time Complexity measures the efficiency of an algorithm, i.e., how many data points you must hit
    - (use the bussing analogy => say there are 10 tables in your work area, and for each table, you have a set goal, to completely reset the table so that more customores can be sat. )
+
+##### Link to Time Complexity With Simple Examples #####
+ - https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/
