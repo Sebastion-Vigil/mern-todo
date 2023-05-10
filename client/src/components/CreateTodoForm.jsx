@@ -21,7 +21,7 @@ export const CreateTodoForm = () => {
   return (
     <form
       onSubmit={(e) => {
-        e.preventDefault();
+        e.preventDefault(); // prevents page from refreshing 
         if (!text) return;
         createTodo({
           text,

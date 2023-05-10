@@ -8,7 +8,9 @@ module.exports = (req, res) => {
     res.json({
       token,
     });
-  } else {
+  }
+  else {
     res.status(401).send('Wrong password');
   }
 }
+
