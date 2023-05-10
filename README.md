@@ -29,6 +29,7 @@
  - break down Time Complexity and Big O Notation using simple experiences/ideas that they can relate to.
    - e.g., Explain Big O Notation and Time Complexity using an analogy of bussing tables in a restaurant
    - Contrast Time Complexity to a speedomoter in a car; a speedometer is a set measure of a car's current speed,
+   - A speedometer quantifies the velocity of a car; Time Complexity quantifies the efficiency of an algorithm.
    - whereas Time Complexity measures the efficiency of an algorithm, i.e., how many data points you must hit
    - (use the bussing analogy => say there are 10 tables in your work area, and for each table, you have a set goal, to completely reset the table so that more customores can be sat. )
 
