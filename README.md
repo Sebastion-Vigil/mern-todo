@@ -30,6 +30,8 @@
  - https://www.freecodecamp.org/news/how-to-build-a-fullstack-authentication-system-with-react-express-mongodb-heroku-and-netlify/
 
  #### Progress Notes: ####
+  - https://stackoverflow.com/questions/32308063/data-modeling-in-mongodb-social-media-app
+
   var mongoose = require('mongoose')
     , Schema = mongoose.Schema
   

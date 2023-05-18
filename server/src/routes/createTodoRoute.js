@@ -2,7 +2,7 @@ const UserModel = require('../models/UserModel');
 const TodoModel = require('../models/TodoModel');
 
 module.exports = async (req, res) => {
-  const {text} = req.body;
+  const { text } = req.body;
   const todo = new TodoModel({
     text,
     completed: false,

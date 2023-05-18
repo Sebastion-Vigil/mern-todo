@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 const morgan = require('morgan');
 const cors = require('cors');
 const mongoose = require('mongoose');
+mongoose.set('strictQuery', true);
 
 const router = require('./router');
 
