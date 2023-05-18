@@ -1,6 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
-const morgan = require('morgan'); // duck duck go
+const morgan = require('morgan');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
@@ -12,8 +12,8 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use(morgan('tiny')); // duck duck go
-
+app.use(morgan('tiny'));
+// https://www.atatus.com/blog/a-beginners-guide-to-morgan-npm-logger/
 app.use(router);
 
 mongoose.connect(process.env.MONGO_URI).then(() => {

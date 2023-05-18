@@ -1,3 +1,4 @@
+const UserModel = require('../models/UserModel');
 const TodoModel = require('../models/TodoModel');
 
 module.exports = async (req, res) => {
